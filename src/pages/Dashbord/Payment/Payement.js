@@ -1,6 +1,6 @@
 import { Elements } from '@stripe/react-stripe-js';
 import { loadStripe } from '@stripe/stripe-js';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 import ChackOutform from './ChackOutform';
 
@@ -8,11 +8,14 @@ const stripePromise=loadStripe('pk_test_51JwGrdHqqc8fJ7jxdlB0j9Nsc4pWPhb6OytRJYx
 const Payement = () => {
     const {appointmentId}=useParams()
     const [patient,setPatient]=useState([])
-   const  url=` https://arcane-coast-52786.herokuapp.com/appointments/${appointmentId}`
-//    console.log(url)
-    fetch(url)
-    .then(res=>res.json())
-    .then(data=>setPatient(data))
+    useEffect(()=>{
+        const  url=` https://arcane-coast-52786.herokuapp.com/appointments/${appointmentId}`
+        console.log(url)
+        fetch(url)
+        .then(res=>res.json())
+        .then(data=>setPatient(data))
+    },[appointmentId])
+  
 
     return (
         <div>
