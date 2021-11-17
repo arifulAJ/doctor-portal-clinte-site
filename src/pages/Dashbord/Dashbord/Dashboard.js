@@ -30,6 +30,7 @@ import AddDoctor from './AddDoctor/AddDoctor';
 import { Button } from '@mui/material';
 import useAuth from '../../../Hooks/useAuth';
 import AdminRoute from '../../Login/AdminRoute/AdminRoute';
+import Payement from '../Payment/Payement';
 
 
 
@@ -141,6 +142,9 @@ function Dashboard(props) {
         <Switch>
         <Route exact path={path}>
         <DashbordHome></DashbordHome>
+        </Route>
+        <Route path={`${path}/payment/:appointmentId`}>
+        <Payement></Payement>
         </Route>
         <AdminRoute path={`${path}/makeAdmin`}>
           <Addmine></Addmine>

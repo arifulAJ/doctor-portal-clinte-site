@@ -4,6 +4,7 @@ import Exceptional from '../Expeptional/Exceptional';
 import AppointmentBaner from './AppointmentBaner/AppointmentBaner';
 import Banner from './Banner/Banner';
 import Location from './Banner/Location';
+import Doctor from './Doctro/Doctor';
 import Services from './Services/Services';
 import Testimonial from './Testimonial/Testimonial';
 
@@ -17,6 +18,7 @@ const Home = () => {
            <Services></Services>
            <Exceptional></Exceptional>
            <AppointmentBaner></AppointmentBaner>
+           <Doctor></Doctor>
            <Testimonial></Testimonial>
         </div>
     );
