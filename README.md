@@ -3,7 +3,7 @@
 
 
 
-# This is the Automobile car company.
+# This is the doctor portal app.
 ## techonology are uses 
 <li> JavaScript</li>
 <li> React.js</li>
