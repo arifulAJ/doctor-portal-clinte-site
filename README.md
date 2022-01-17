@@ -1,15 +1,35 @@
-# Getting Started with Create React App
+# Website mockup with different devices
+<img src="https://i.ibb.co/YRJR4M0/doctor.png" />
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+# This is the Automobile car company.
+## techonology are uses 
+<li> JavaScript</li>
+<li> React.js</li>
+<li> Metrial Ui </li>
+<li> Node.js</li>
+<li> Mongo DB</li>
+<li> Html</li>
+<li> CSS</li>
+<li> Firebase</li>
+
+
+
+
+## user experience by exploring this web
+<li>user can doctor appointmnet  </li>
+<li>user can pay for doctor visite  </li>
+<li>user can Review our product </li>
+<li>user can sign up with google and email and password </li>
+
+
+
 
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open live website privew link: https://doctor-portal-ff861.firebaseapp.com/ to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
