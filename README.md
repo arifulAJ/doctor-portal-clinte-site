@@ -4,7 +4,7 @@
 
 
 # This is the doctor portal app.
-## techonology are uses 
+## techonology are used for clint site  
 <li> JavaScript</li>
 <li> React.js</li>
 <li> Metrial Ui </li>
